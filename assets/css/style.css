@@ -1,0 +1,25 @@
+.trip-card {
+    transition: transform 0.2s;
+}
+
+.trip-card:hover {
+    transform: translateY(-5px);
+}
+
+.trip-image {
+    height: 200px;
+    object-fit: cover;
+}
+
+.profile-header {
+    background-color: #f8f9fa;
+    padding: 2rem 0;
+}
+
+.nav-tabs .nav-link {
+    color: #495057;
+}
+
+.nav-tabs .nav-link.active {
+    font-weight: bold;
+} 
